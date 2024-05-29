@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+<link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<h1>CALCULATOR</h1>
+<div class="card">
+  <input type="text" id="display" readonly>
+  
+  <button onclick="Display('7')" class="item">7</button>
+  <button onclick="Display('8')" class="item">8</button>
+  <button onclick="Display('9')" class="item">9</button>
+  <button onclick="Display('+')" class="item">+</button>
+  
+  <button onclick="Display('4')" class="item">4</button>
+  <button onclick="Display('5')" class="item">5</button>
+  <button onclick="Display('6')" class="item">6</button>
+  <button onclick="Display('-')" class="item">-</button>
+  
+  <button onclick="Display('1')" class="item">1</button>
+  <button onclick="Display('2')" class="item">2</button>
+  <button onclick="Display('3')" class="item">3</button>
+  <button onclick="Display('*')" class="item">*</button>
+  
+  <button onclick="Display('0')" class="item">0</button>
+  <button onclick="Display('.')" class="item">.</button>
+  <button onclick="clearDisplay()" class="item">C</button>
+  <button onclick="calculate()" class="item">=</button>
+</div>
+
+<script src="calculator.js"></script>
+
+</body>
+</html>
